@@ -308,9 +308,7 @@ public final class StandardSecurityHandler extends SecurityHandler
     {
         try
         {
-            // "Decrypt the 16-byte Perms string using AES-256 in ECB mode with an 
-            // initialization vector of zero and the file encryption key as the key."
-            Cipher cipher = Cipher.getInstance("AES/ECB/NoPadding");
+            Cipher cipher = Cipher.getInstance("AES/CBC/NoPadding");
             cipher.init(Cipher.DECRYPT_MODE, new SecretKeySpec(getEncryptionKey(), "AES"));
             byte[] perms = cipher.doFinal(encryption.getPerms());
 
