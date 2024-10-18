@@ -42,7 +42,7 @@ task androidSourcesJar(type: Jar) {
 }
 
 def pomConfig = {
-    url "https://github.com/TomRoush/PdfBox-Android"
+    url "https://github.com/rocaforarnelo/PdfBox-Android"
     licenses {
         license {
             name "The Apache Software License, Version 2.0"
@@ -52,16 +52,16 @@ def pomConfig = {
     }
     developers {
         developer {
-            name "Tom Roush"
-            email "tom@tom-roush.com"
-            organization "PdfBox-Android Developers"
-            organizationUrl "https://github.com/TomRoush/PdfBox-Android"
+            name "Arnelo Rocafor"
+            email "rocaforarnelo@gmail.com"
+            organization "Rocafor Arnelo"
+            organizationUrl "https://github.com/rocaforarnelo/PdfBox-Android"
         }
     }
     scm {
-        connection "scm:git:git@github.com:TomRoush/PdfBox-Android.git"
-        developerConnection "scm:git:ssh@github.com:TomRoush/PdfBox-Android.git"
-        url "https://github.com/TomRoush/PdfBox-Android"
+        connection "scm:git:git@github.com:rocaforarnelo/PdfBox-Android.git"
+        developerConnection "scm:git:ssh@github.com:rocaforarnelo/PdfBox-Android.git"
+        url "https://github.com/rocaforarnelo/PdfBox-Android"
     }
 }
 

@@ -3,7 +3,7 @@ plugins {
 }
 
 ext {
-    PUBLISH_GROUP_ID = 'com.tom-roush'
+    PUBLISH_GROUP_ID = 'com.arnelo-rocafor'
     PUBLISH_ARTIFACT_ID = 'pdfbox-android'
     PUBLISH_VERSION = VERSION_NAME
 }
@@ -42,7 +42,7 @@ android {
     lint {
         abortOnError false
     }
-    namespace 'com.tom_roush.pdfbox'
+    namespace 'com.arnelo_rocafor.pdfbox'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
